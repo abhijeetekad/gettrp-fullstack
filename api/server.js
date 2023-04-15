@@ -1,18 +1,21 @@
 import express from "express";
 import mongoose from "mongoose";
-const app = express();
+import dotenv from "dotenv";
 
-// try {
-//   await mongoose.connect(
-//     "mongodb+srv://ekadabhijeet4:abhijeetekad@cluster0.ygx4xuc.mongodb.net/?retryWrites=true&w=majority&dbname=gettrp"
-//   );
-// } catch (error) {
-//   //   handleError(error);
-//   console.error(error);
-// }
-// mongoose.connect(
-//   "mongodb+srv://ekadabhijeet4:abhijeetekad@cluster0.ygx4xuc.mongodb.net/?retryWrites=true&w=majority&dbname=gettrp"
-// );
+const app = express();
+dotenv.config();
+mongoose.set("strictQuery", true);
+
+const connect = async () => {
+  try {
+    await mongoose.connect(process.env.MONGO);
+    console.log("connected to mongodb");
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 app.listen(8800, () => {
+  connect();
   console.log("Backend server is runningg");
 });
