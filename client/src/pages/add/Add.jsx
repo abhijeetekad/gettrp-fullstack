@@ -62,13 +62,13 @@ const Add = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     mutation.mutate(state);
-    // navigate("/mygigs")
+    navigate("/mygigs");
   };
 
   return (
     <div className="add">
       <div className="container">
-        <h1>Add New Gig</h1>
+        <h1>Add New Job</h1>
         <div className="sections">
           <div className="info">
             <label htmlFor="">Title</label>
@@ -131,10 +131,11 @@ const Add = () => {
               cols="30"
               rows="10"
             ></textarea>
-            <label htmlFor="">Delivery Time (e.g. 3 days)</label>
+            {/* <label htmlFor="">Delivery Time (e.g. 3 days)</label> */}
+            <label htmlFor="">Working Days</label>
             <input type="number" name="deliveryTime" onChange={handleChange} />
-            <label htmlFor="">Revision Number</label>
-            <input
+            {/* <label htmlFor="">Revision Number</label> */}
+            {/* <input
               type="number"
               name="revisionNumber"
               onChange={handleChange}
@@ -143,7 +144,7 @@ const Add = () => {
             <form action="" className="add" onSubmit={handleFeature}>
               <input type="text" placeholder="e.g. page design" />
               <button type="submit">add</button>
-            </form>
+            </form> */}
             <div className="addedFeatures">
               {state?.features?.map((f) => (
                 <div className="item" key={f}>
@@ -158,8 +159,8 @@ const Add = () => {
                 </div>
               ))}
             </div>
-            <label htmlFor="">Price</label>
-            <input type="number" onChange={handleChange} name="price" />
+            {/* <label htmlFor="">Price</label>
+            <input type="number" onChange={handleChange} name="price" /> */}
           </div>
         </div>
       </div>

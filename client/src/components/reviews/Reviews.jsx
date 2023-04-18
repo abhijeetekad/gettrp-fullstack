@@ -21,14 +21,16 @@ const Reviews = ({ gigId }) => {
       queryClient.invalidateQueries(["reviews"]);
     },
   });
+  // console.log("mutation", mutation);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const desc = e.target[0].value;
     const star = e.target[1].value;
+
     mutation.mutate({ gigId, desc, star });
   };
-
+  // console.log("data", data);
   return (
     <div className="reviews">
       <h2>Reviews</h2>

@@ -14,7 +14,8 @@ function Featured() {
       <div className="container">
         <div className="left">
           <h1>
-            Find the perfect <span>freelance</span> services for your business
+            "From <span>Training to Referral, to Placement</span> Your One-Stop
+            Career Destination!"
           </h1>
           <div className="search">
             <div className="searchInput">
@@ -30,9 +31,17 @@ function Featured() {
           <div className="popular">
             <span>Popular:</span>
             <button>Web Design</button>
+            <button>Software Developer</button>
+            <button>Data Scientist</button>
+            <button>AI Services</button>
+            <button>Information Security Analyst</button>
+            <button>Database Administrator</button>
+            <button>UX/UI Designer</button>
+            <button>IT Project Manager</button>
+            {/* <button>Web Design</button>
             <button>WordPress</button>
             <button>Logo Design</button>
-            <button>AI Services</button>
+            <button>AI Services</button> */}
           </div>
         </div>
         <div className="right">

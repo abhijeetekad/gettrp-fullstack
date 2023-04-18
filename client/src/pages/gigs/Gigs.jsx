@@ -41,14 +41,19 @@ function Gigs() {
   return (
     <div className="gigs">
       <div className="container">
-        <span className="breadcrumbs">Liverr Graphics & Design</span>
-        <h1>AI Artists</h1>
-        <p>
+        <span className="breadcrumbs">
+          Gettrp {" > "} Graphics & Design {" > "}
+        </span>
+        <h1>Software Developer</h1>
+        {/* <h1>AI Artists</h1> */}
+        {/* <p>
           Explore the boundaries of art and technology with Liverr's AI artists
-        </p>
+        </p> */}
+        <p>Explore your dream jobs with Gettrp's portal</p>
         <div className="menu">
           <div className="left">
-            <span>Budget</span>
+            {/* <span>Budget</span> */}
+            <span>Pay</span>
             <input ref={minRef} type="number" placeholder="min" />
             <input ref={maxRef} type="number" placeholder="max" />
             <button onClick={apply}>Apply</button>

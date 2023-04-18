@@ -20,7 +20,48 @@ function Home() {
       <div className="features">
         <div className="container">
           <div className="item">
-            <h1>A whole world of freelance talent at your fingertips</h1>
+            {/* <h1>A whole world of freelance talent at your fingertips</h1> */}
+            <h1>"Find the job that fits your life."</h1>
+            <div className="title">
+              <img src="./img/check.png" alt="" />
+              Job Listings
+            </div>
+            <p>
+              Gettrp provides an extensive database of job listings with
+              detailed information about companies, salaries, and employee
+              reviews.
+            </p>
+            <div className="title">
+              <img src="./img/check.png" alt="" />
+              Company Reviews and Ratings
+            </div>
+            <p>
+              Gettrp allows employees to anonymously review and rate companies,
+              providing insights into company culture, work-life balance, and
+              other factors.
+            </p>
+            <div className="title">
+              <img src="./img/check.png" alt="" />
+              Interview Reviews
+            </div>
+            <p>
+              Gettrp provides insights into the interview process at different
+              companies, including interview format, questions asked, and
+              overall candidate experience.
+            </p>
+            <div className="title">
+              <img src="./img/check.png" alt="" />
+              Career-related Content
+            </div>
+            <p>
+              Gettrp offers career-related articles, guides, and blog posts on
+              various topics to help users with job search strategies, career
+              development, and workplace trends.
+            </p>
+          </div>
+          {/* <div className="item">
+             <h1>A whole world of freelance talent at your fingertips</h1> 
+            <h1>"Find the job that fits your life."</h1>
             <div className="title">
               <img src="./img/check.png" alt="" />
               The best for every budget
@@ -53,7 +94,7 @@ function Home() {
               Find high-quality services at every price point. No hourly rates,
               just project-based pricing.
             </p>
-          </div>
+          </div> */}
           <div className="item">
             <video src="./img/video.mp4" controls />
           </div>
@@ -61,7 +102,7 @@ function Home() {
       </div>
       <div className="explore">
         <div className="container">
-          <h1>Explore the marketplace</h1>
+          <h1>Explore the Jobs available in market</h1>
           <div className="items">
             <div className="item">
               <img
@@ -151,10 +192,10 @@ function Home() {
         <div className="container">
           <div className="item">
             <h1>
-              fiverr <i>business</i>
+              Gettrp <i>Live portal</i>
             </h1>
             <h1>
-              A business solution designed for <i>teams</i>
+              Unlock Your Career <i>Potential</i>
             </h1>
             <p>
               Upgrade to a curated experience packed with tools and benefits,
@@ -174,7 +215,21 @@ function Home() {
               <img src="./img/check.png" alt="" />
               Manage teamwork and boost productivity with one powerful workspace
             </div>
-            <button>Explore Fiverr Business</button>
+            {/* <div className="title">
+              <img src="./img/check.png" alt="" />
+              Connect to freelancers with proven business experience
+            </div>
+
+            <div className="title">
+              <img src="./img/check.png" alt="" />
+              Get matched with the perfect talent by a customer success manager
+            </div>
+
+            <div className="title">
+              <img src="./img/check.png" alt="" />
+              Manage teamwork and boost productivity with one powerful workspace
+            </div> */}
+            <button>Explore Gettrp Jobs</button>
           </div>
           <div className="item">
             <img

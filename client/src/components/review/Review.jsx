@@ -3,6 +3,7 @@ import React from "react";
 import newRequest from "../../utils/newRequest";
 import "./Review.scss";
 const Review = ({ review }) => {
+  console.log("review", review);
   const { isLoading, error, data } = useQuery({
     queryKey: [review.userId],
     queryFn: () =>

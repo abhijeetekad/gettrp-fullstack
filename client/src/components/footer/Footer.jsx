@@ -12,13 +12,13 @@ function Footer() {
             <span>Digital Marketing</span>
             <span>Writing & Translation</span>
             <span>Video & Animation</span>
-            <span>Music & Audio</span>
             <span>Programming & Tech</span>
             <span>Data</span>
             <span>Business</span>
             <span>Lifestyle</span>
             <span>Photography</span>
             <span>Sitemap</span>
+            <span>Music & Audio</span>
           </div>
           <div className="item">
             <h2>About</h2>
@@ -34,8 +34,8 @@ function Footer() {
             <h2>Support</h2>
             <span>Help & Support</span>
             <span>Trust & Safety</span>
-            <span>Selling on Fiverr</span>
-            <span>Buying on Fiverr</span>
+            <span>Selling on GETTRP</span>
+            <span>Buying on GETTRP</span>
           </div>
           <div className="item">
             <h2>Community</h2>
@@ -52,15 +52,15 @@ function Footer() {
             <span>Community Standards</span>
           </div>
           <div className="item">
-            <h2>More From Fiverr</h2>
-            <span>Fiverr Business</span>
-            <span>Fiverr Pro</span>
-            <span>Fiverr Logo Maker</span>
-            <span>Fiverr Guides</span>
+            <h2>More From GETTRP</h2>
+            <span>GETTRP Business</span>
+            <span>GETTRP Pro</span>
+            <span>GETTRP Logo Maker</span>
+            <span>GETTRP Guides</span>
             <span>Get Inspired</span>
-            <span>Fiverr Select</span>
+            <span>GETTRP Select</span>
             <span>ClearVoice</span>
-            <span>Fiverr Workspace</span>
+            <span>GETTRP Workspace</span>
             <span>Learn</span>
             <span>Working Not Working</span>
           </div>
@@ -68,8 +68,8 @@ function Footer() {
         <hr />
         <div className="bottom">
           <div className="left">
-            <h2>fiverr</h2>
-            <span>© Fiverr International Ltd. 2023</span>
+            <h2>GETTRP</h2>
+            <span>© GETTRP International Ltd. 2023</span>
           </div>
           <div className="right">
             <div className="social">
@@ -83,10 +83,10 @@ function Footer() {
               <img src="/img/language.png" alt="" />
               <span>English</span>
             </div>
-            <div className="link">
+            {/* <div className="link">
               <img src="/img/coin.png" alt="" />
               <span>USD</span>
-            </div>
+            </div> */}
             <img src="/img/accessibility.png" alt="" />
           </div>
         </div>

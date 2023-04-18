@@ -42,7 +42,7 @@ function Gig() {
         <div className="container">
           <div className="left">
             <span className="breadcrumbs">
-              Fiverr {">"} Graphics & Design {">"}
+              Gettrp {">"} Graphics & Design {">"}
             </span>
             <h1>{data.title}</h1>
             {isLoadingUser ? (
@@ -74,7 +74,7 @@ function Gig() {
                 <img key={img} src={img} alt="" />
               ))}
             </Slider>
-            <h2>About This Gig</h2>
+            <h2>About This Job</h2>
             <p>{data.desc}</p>
             {isLoadingUser ? (
               "loading"
@@ -82,7 +82,7 @@ function Gig() {
               "Something went wrong!"
             ) : (
               <div className="seller">
-                <h2>About The Seller</h2>
+                <h2>About The Companny</h2>
                 <div className="user">
                   <img src={dataUser.img || "/img/noavatar.jpg"} alt="" />
                   <div className="info">
@@ -116,10 +116,10 @@ function Gig() {
                       <span className="title">Avg. response time</span>
                       <span className="desc">4 hours</span>
                     </div>
-                    <div className="item">
+                    {/* <div className="item">
                       <span className="title">Last delivery</span>
                       <span className="desc">1 day</span>
-                    </div>
+                    </div> */}
                     <div className="item">
                       <span className="title">Languages</span>
                       <span className="desc">English</span>
@@ -135,13 +135,13 @@ function Gig() {
           <div className="right">
             <div className="price">
               <h3>{data.shortTitle}</h3>
-              <h2>$ {data.price}</h2>
+              <h2>Base pay {data.price}</h2>
             </div>
             <p>{data.shortDesc}</p>
             <div className="details">
               <div className="item">
                 <img src="/img/clock.png" alt="" />
-                <span>{data.deliveryDate} Days Delivery</span>
+                {/* <span>{data.deliveryDate} Days Delivery</span> */}
               </div>
               <div className="item">
                 <img src="/img/recycle.png" alt="" />
@@ -157,7 +157,8 @@ function Gig() {
               ))}
             </div>
             <Link to={`/pay/${id}`}>
-              <button>Continue</button>
+              {/* <button>Continue</button> */}
+              <button>Apply</button>
             </Link>
           </div>
         </div>

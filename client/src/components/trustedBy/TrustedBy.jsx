@@ -7,23 +7,27 @@ const TrustedBy = () => {
       <div className="container">
         <span>Trusted by:</span>
         <img
-          src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/facebook2x.188a797.png"
+          src="https://res.cloudinary.com/abhijeetekad/image/upload/v1681855409/gettrp/images_p4jeqo.jpg"
           alt=""
         />
         <img
-          src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/google2x.06d74c8.png"
+          src="https://res.cloudinary.com/abhijeetekad/image/upload/v1681855559/gettrp/download_3_ejiip6.png"
           alt=""
         />
         <img
-          src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/netflix2x.887e47e.png"
+          src="https://res.cloudinary.com/abhijeetekad/image/upload/v1681855559/gettrp/download_1_oci1zx.png"
           alt=""
         />
         <img
-          src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/pandg2x.6dc32e4.png"
+          src="https://res.cloudinary.com/abhijeetekad/image/upload/v1681855559/gettrp/download_epwmdj.png"
           alt=""
         />
         <img
-          src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/paypal2x.22728be.png"
+          src="https://res.cloudinary.com/abhijeetekad/image/upload/v1681855559/gettrp/download_2_dazjw8.png"
+          alt=""
+        />
+        <img
+          src="https://res.cloudinary.com/abhijeetekad/image/upload/v1681855559/gettrp/download_4_fqmgmp.png"
           alt=""
         />
       </div>
