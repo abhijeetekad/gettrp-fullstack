@@ -19,7 +19,6 @@ export const register = async (req, res, next) => {
   }
 };
 
-
 export const login = async (req, res, next) => {
   try {
     const user = await User.findOne({ username: req.body.username });
@@ -40,7 +39,8 @@ export const login = async (req, res, next) => {
 
     const { password, ...info } = user._doc;
     info.token = token;
-    res.cookie("accessToken", token, {
+    res
+      .cookie("accessToken", token, {
         httpOnly: true,
       })
       .status(200)
