@@ -95,9 +95,9 @@ function Home() {
               just project-based pricing.
             </p>
           </div> */}
-          <div className="item">
+          {/* <div className="item">
             <video src="./img/video.mp4" controls />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="explore">
@@ -188,7 +188,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="features dark">
+      {/* <div className="features dark">
         <div className="container">
           <div className="item">
             <h1>
@@ -215,20 +215,7 @@ function Home() {
               <img src="./img/check.png" alt="" />
               Manage teamwork and boost productivity with one powerful workspace
             </div>
-            {/* <div className="title">
-              <img src="./img/check.png" alt="" />
-              Connect to freelancers with proven business experience
-            </div>
 
-            <div className="title">
-              <img src="./img/check.png" alt="" />
-              Get matched with the perfect talent by a customer success manager
-            </div>
-
-            <div className="title">
-              <img src="./img/check.png" alt="" />
-              Manage teamwork and boost productivity with one powerful workspace
-            </div> */}
             <button>Explore Gettrp Jobs</button>
           </div>
           <div className="item">
@@ -238,7 +225,7 @@ function Home() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       <Slide slidesToShow={4} arrowsScroll={4}>
         {projects.map((card) => (
           <ProjectCard key={card.id} card={card} />

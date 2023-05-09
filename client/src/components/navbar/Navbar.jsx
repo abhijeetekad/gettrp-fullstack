@@ -44,12 +44,14 @@ function Navbar() {
           <span className="dot">.</span>
         </div>
         <div className="links">
-          <span>Gettrp Business</span>
+          {/* <span>Gettrp Business</span> */}
+          <span>Training</span>
           <span>Explore</span>
           {/* <span>English</span> */}
           {!currentUser?.isSeller && (
             // <span>Become a Seller</span>
-            <span>Hire Employee</span>
+            // <span>Hire Employee</span>
+            <span>Referral</span>
           )}
           {currentUser ? (
             <div className="user" onClick={() => setOpen(!open)}>
@@ -100,7 +102,7 @@ function Navbar() {
           )}
         </div>
       </div>
-      {(active || pathname !== "/") && (
+      {/* {(active || pathname !== "/") && (
         <>
           <hr />
           <div className="menu">
@@ -134,7 +136,7 @@ function Navbar() {
           </div>
           <hr />
         </>
-      )}
+      )} */}
     </div>
   );
 }

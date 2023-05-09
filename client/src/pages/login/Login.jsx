@@ -15,7 +15,6 @@ function Login() {
     e.preventDefault();
     try {
       const res = await newRequest.post("/auth/login", { username, password });
-      console.log("res", res);
       localStorage.setItem("currentUser", JSON.stringify(res.data));
       localStorage.setItem("token", JSON.stringify(res.data.token));
       Cookies.set("currentUser", res.data.token);
