@@ -1,7 +1,7 @@
 import axios from "axios";
 const currentUser = localStorage.getItem("currentUser");
 let newRequest;
-if (currentUser !== "null") {
+if (currentUser !== "null" && currentUser) {
   const jsonResult = JSON.parse(currentUser);
   const token = jsonResult.token;
   newRequest = axios.create({
