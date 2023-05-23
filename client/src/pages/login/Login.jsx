@@ -17,7 +17,7 @@ function Login() {
       const res = await newRequest.post("/auth/login", { username, password });
       localStorage.setItem("currentUser", JSON.stringify(res.data));
       localStorage.setItem("token", JSON.stringify(res.data.token));
-      Cookies.set("currentUser", res.data.token);
+      Cookies.set("currentUser", res.data.token, {secure: false});
       Cookies.set("accessToken", res.data.token);
       navigate("/");
       window.location.reload()
