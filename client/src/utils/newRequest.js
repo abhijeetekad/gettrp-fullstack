@@ -1,5 +1,5 @@
 import axios from "axios";
-const currentUser = await localStorage.getItem("currentUser");
+const currentUser = localStorage.getItem("currentUser");
 let newRequest;
 if (currentUser !== "null") {
   const jsonResult = JSON.parse(currentUser);
