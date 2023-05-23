@@ -1,9 +1,11 @@
 import jwt from "jsonwebtoken";
 import createError from "../utils/createError.js";
 
-export const verifyToken = (req, res, next) => {
-  const token = req.cookies.currentUser;
-  console.log(token);
+export const verifyToken = async (req, res, next) => {
+  try {
+    const currentUser = req.headers.authorization.split(" ")[1];
+  const currentUserJSON = await JSON.parse(currentUser)
+  const token = currentUserJSON.token;
   if (!token) return next(createError(401, "You are not authenticated!"));
 
   jwt.verify(token, process.env.JWT_KEY, async (err, payload) => {
@@ -12,4 +14,8 @@ export const verifyToken = (req, res, next) => {
     req.isSeller = payload.isSeller;
     next();
   });
+  } catch (error) {
+    res.send({msg: "auth failed"})
+  }
+  
 };

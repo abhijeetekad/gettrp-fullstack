@@ -20,6 +20,7 @@ function Login() {
       Cookies.set("currentUser", res.data.token);
       Cookies.set("accessToken", res.data.token);
       navigate("/");
+      window.location.reload()
     } catch (err) {
       setError(err.response.data);
     }

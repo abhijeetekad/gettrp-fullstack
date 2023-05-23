@@ -49,7 +49,8 @@ const Messages = () => {
               <th>Date</th>
               <th>Action</th>
             </tr>
-            {data.map((c) => (
+            {console.log(data)}
+            {data && data.map((c) => (
               <tr
                 className={
                   ((currentUser.isSeller && !c.readBySeller) ||
