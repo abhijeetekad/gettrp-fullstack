@@ -15,7 +15,7 @@ function Featured() {
         <div className="left">
           <h1>
             "From <span>Training to Referral, to Placement</span> Your One-Stop
-            Career Destination!"
+            Career Destination!!!"
           </h1>
           <div className="search">
             <div className="searchInput">
