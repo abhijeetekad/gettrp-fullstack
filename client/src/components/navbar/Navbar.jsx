@@ -45,7 +45,10 @@ function Navbar() {
         </div>
         <div className="links">
           {/* <span>Gettrp Business</span> */}
-          <span>Training</span>
+          <Link to="https://sage-kheer-0d783f.netlify.app/">
+            <span>Training</span>
+          </Link>
+
           <span>Explore</span>
           {/* <span>English</span> */}
           {!currentUser?.isSeller && (
