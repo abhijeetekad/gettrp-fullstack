@@ -17,7 +17,7 @@ function Featured() {
             "From <span>Training to Referral, to Placement</span> Your One-Stop
             Career Destination!!!"
           </h1>
-          <div className="search">
+          {/* <div className="search">
             <div className="searchInput">
               <img src="./img/search.png" alt="" />
               <input
@@ -38,11 +38,11 @@ function Featured() {
             <button>Database Administrator</button>
             <button>UX/UI Designer</button>
             <button>IT Project Manager</button>
-            {/* <button>Web Design</button>
+             <button>Web Design</button>
             <button>WordPress</button>
             <button>Logo Design</button>
-            <button>AI Services</button> */}
-          </div>
+            <button>AI Services</button> 
+          </div> */}
         </div>
         <div className="right">
           <img src="./img/man.png" alt="" />
