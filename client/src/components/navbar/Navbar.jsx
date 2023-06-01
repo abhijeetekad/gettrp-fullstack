@@ -54,7 +54,7 @@ function Navbar() {
           {!currentUser?.isSeller && (
             // <span>Become a Seller</span>
             // <span>Hire Employee</span>
-            <Link to="https://docs.google.com/spreadsheets/d/1qrY6AAI8j0Jg6wplB5ruod_3a9AD1gmtTKYX3g8hSl0/edit#gid=280681721">
+            <Link to="https://dreamy-hamster-11af8e.netlify.app/">
               {" "}
               <span>Referral</span>
             </Link>
