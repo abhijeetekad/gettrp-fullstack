@@ -51,7 +51,7 @@ function MyGigs() {
             <tr>
               <th>Image</th>
               <th>Title</th>
-              <th>Price</th>
+              <th>vacancies</th>
               <th>Sales</th>
               <th>Action</th>
             </tr>

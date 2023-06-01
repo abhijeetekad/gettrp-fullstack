@@ -45,7 +45,7 @@ function Navbar() {
         </div>
         <div className="links">
           {/* <span>Gettrp Business</span> */}
-          <Link to="https://sage-kheer-0d783f.netlify.app/">
+          <Link to="https://docs.google.com/spreadsheets/d/1-LOqca-dt1U1Kilr-SLB4rpmxOH13UbdVntRYczTmCU/edit?resourcekey#gid=1651390896">
             <span>Training</span>
           </Link>
 
@@ -54,7 +54,10 @@ function Navbar() {
           {!currentUser?.isSeller && (
             // <span>Become a Seller</span>
             // <span>Hire Employee</span>
-            <span>Referral</span>
+            <Link to="https://docs.google.com/spreadsheets/d/1qrY6AAI8j0Jg6wplB5ruod_3a9AD1gmtTKYX3g8hSl0/edit#gid=280681721">
+              {" "}
+              <span>Referral</span>
+            </Link>
           )}
           {currentUser ? (
             <div className="user" onClick={() => setOpen(!open)}>
